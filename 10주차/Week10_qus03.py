@@ -3,7 +3,6 @@ import math
 def getPosOfRightmostSetBit(n):
     return int(math.log2(n&-n)+1)
  
-  
 def setRightmostUnsetBit(n):
     if (n == 0):
         return 1
